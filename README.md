@@ -34,5 +34,6 @@ Since the dataset is imbalanced with more 'Rock' tracks than 'Hip-Hop', we balan
    
 The decision tree and logistic regression models are retrained on the balanced dataset and evaluated to compare their performance. Cross-validation is applied to ensure robust evaluation of the models.
 
-1o. Conclusion
+10. Conclusion
+
 Based on the evaluation results, the logistic regression model appears to outperform the decision tree model in terms of accuracy on the balanced dataset. Further optimizations and model tuning can be explored to improve classification performance.
