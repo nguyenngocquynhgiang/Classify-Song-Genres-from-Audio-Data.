@@ -5,16 +5,6 @@ Music lovers often have vast collections with songs spanning various genres. Man
 
 The project will explore a dataset containing song metadata (titles, artists, genres) and corresponding audio features (danceability, energy, etc.). By analyzing these features, the model will learn to identify patterns that distinguish between different genres.
 
-Here's a breakdown of the key steps involved:
-
-* **Data preparation:** We'll clean, explore, and preprocess the dataset to ensure the machine learning model can work effectively with it.
-* **Feature analysis:** We'll investigate how different audio characteristics correlate with specific genres.
-* **Model development:** We'll train and evaluate different machine learning models to find the one that performs best at genre classification. 
-* **Balancing the data:** We'll address potential bias caused by imbalanced data distribution across genres.
-* **Performance evaluation:** We'll assess the accuracy and effectiveness of the final model in classifying songs.
-
-This report is about preparing a dataset to classify songs into genres using machine learning. Here are the key steps involved:
-
 1. **Load the data:** The data consists of two parts: track metadata (including titles, artists, and genre labels) and audio metrics (like danceability and energy) for each track. Pandas is used to load this data from CSV and JSON files and merge them into a single DataFrame.
 
 2. **Explore the data:** This involves checking for missing values, data types, and getting an overall idea of the data's distribution.
