@@ -13,4 +13,30 @@ Here's a breakdown of the key steps involved:
 * **Balancing the data:** We'll address potential bias caused by imbalanced data distribution across genres.
 * **Performance evaluation:** We'll assess the accuracy and effectiveness of the final model in classifying songs.
 
+This report is about preparing a dataset to classify songs into genres using machine learning. Here are the key steps involved:
+
+1. **Load the data:** The data consists of two parts: track metadata (including titles, artists, and genre labels) and audio metrics (like danceability and energy) for each track. Pandas is used to load this data from CSV and JSON files and merge them into a single DataFrame.
+
+2. **Explore the data:** This involves checking for missing values, data types, and getting an overall idea of the data's distribution.
+
+3. **Identify relationships between features:** The report examines how different audio metrics correlate with each other. For example, high acousticness might indicate a slower tempo and lower energy.
+
+4. **Split the data:** The data is split into two sets: training data for training the machine learning model and test data for evaluating the model's performance.
+
+5. **Normalize the data:** This ensures all features have a similar range of values, which can improve the performance of some machine learning algorithms.
+
+6. **Apply dimensionality reduction (PCA):** Principal Component Analysis (PCA) is used to reduce the number of features while retaining most of the important information in the data. This can be helpful for improving model performance and reducing training time.
+
+7. **Train machine learning models:** Here, the report uses two models: decision tree and logistic regression. Both models are trained on the preprocessed training data to learn how to classify songs based on their audio features.
+
+8. **Evaluate model performance:** The models' performance is evaluated using classification reports, which provide metrics like precision, recall, and F1-score for each genre classification.
+
+9. **Compare models:** The report compares the performance of the decision tree and logistic regression models and identifies which one performs better for this specific task.
+
+10. **Balance the data:** The dataset might be imbalanced, with more data points for one genre (e.g., rock) than another (e.g., hip-hop). This can bias the model towards the majority class. The report addresses this by creating a balanced dataset with an equal number of data points for each genre.
+
+11. **Evaluate impact of balancing:** The report trains the models again using the balanced dataset and compares the performance with the imbalanced dataset. This helps to assess whether balancing the data improves model bias and overall classification accuracy.
+
+Overall, this report provides a step-by-step explanation of how to prepare and analyze data for music genre classification using machine learning techniques. It highlights the importance of data cleaning, exploration, dimensionality reduction, and model selection for achieving good classification performance.
+
 The successful outcome of this project will be a machine learning model that can automatically classify songs into their respective genres based on their audio properties. This model has the potential to be integrated into music streaming platforms or personal music libraries to simplify music organization and enhance user experience. 
