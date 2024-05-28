@@ -33,6 +33,30 @@ The project will explore a dataset containing song metadata (titles, artists, ge
 
 11. **Evaluate impact of balancing:** The report trains the models again using the balanced dataset and compares the performance with the imbalanced dataset. This helps to assess whether balancing the data improves model bias and overall classification accuracy.
 
-Overall, this report provides a step-by-step explanation of how to prepare and analyze data for music genre classification using machine learning techniques. It highlights the importance of data cleaning, exploration, dimensionality reduction, and model selection for achieving good classification performance.
-
 The successful outcome of this project will be a machine learning model that can automatically classify songs into their respective genres based on their audio properties. This model has the potential to be integrated into music streaming platforms or personal music libraries to simplify music organization and enhance user experience. 
+### Project Requirements
+
+This project requires the following tools and resources:
+
+**Software:**
+
+* Python 3 (with necessary libraries)
+    * pandas: for data manipulation and analysis
+    * seaborn: for data visualization
+    * scikit-learn: for machine learning algorithms and model building
+
+**Data:**
+
+* Music dataset containing Echonest track information for songs belonging to Hip-Hop and Rock genres. This data should include features such as danceability, energy, acousticness, tempo, etc.
+
+**Skills:**
+
+* Basic understanding of Python programming
+* Familiarity with data analysis concepts
+* Working knowledge of machine learning fundamentals (classification algorithms, model evaluation)
+
+**Additional Considerations:**
+
+* Access to online resources and documentation for the chosen Python libraries and scikit-learn.
+* A text editor or IDE for writing and running Python code.
+
