@@ -21,6 +21,7 @@ The project will explore a dataset containing song metadata (titles, artists, ge
 ![image](https://github.com/nguyenngocquynhgiang/Classify-Song-Genres-from-Audio-Data./assets/135851627/bb665e20-4618-40a7-80ce-0c2515cf0ae8)
 
 5. **Normalize the data:** This ensures all features have a similar range of values, which can improve the performance of some machine learning algorithms.
+
 ![image](https://github.com/nguyenngocquynhgiang/Classify-Song-Genres-from-Audio-Data./assets/135851627/00269b5b-6c15-4a64-8db4-2b6c394a307e)
 
 6. **Apply dimensionality reduction (PCA):** Principal Component Analysis (PCA) is used to reduce the number of features while retaining most of the important information in the data. This can be helpful for improving model performance and reducing training time.
