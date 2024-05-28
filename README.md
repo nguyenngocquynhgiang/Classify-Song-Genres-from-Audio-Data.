@@ -1,6 +1,5 @@
 ## Project Description: Music Genre Classification with Machine Learning
 
-This project aims to develop a machine learning model that can automatically classify songs into different genres based on their audio features. 
 
 Music lovers often have vast collections with songs spanning various genres. Manually organizing these songs can be time-consuming. This project offers a solution by leveraging the power of machine learning to automate genre classification.
 
