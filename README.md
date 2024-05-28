@@ -4,6 +4,8 @@
 Music lovers often have vast collections with songs spanning various genres. Manually organizing these songs can be time-consuming. This project offers a solution by leveraging the power of machine learning to automate genre classification.
 
 The project will explore a dataset containing song metadata (titles, artists, genres) and corresponding audio features (danceability, energy, etc.). By analyzing these features, the model will learn to identify patterns that distinguish between different genres.
+
+
 ![image](https://github.com/nguyenngocquynhgiang/Classify-Song-Genres-from-Audio-Data./assets/135851627/5597f86c-34a8-4a6c-ab7c-250bb6b0a42b)
 
 1. **Load the data:** The data consists of two parts: track metadata (including titles, artists, and genre labels) and audio metrics (like danceability and energy) for each track. Pandas is used to load this data from CSV and JSON files and merge them into a single DataFrame.
